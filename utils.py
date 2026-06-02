@@ -1,6 +1,7 @@
 """
 Utility functions for basic arithmetic operations.
 """
+import string
 
 
 def add(a: int, b: int) -> int:
@@ -21,3 +22,6 @@ def multiply(a: int, b: int) -> int:
 def divide(a: int, b: int) -> float:
     """Divide two numbers."""
     return a / b
+
+def int_to_binary(number: int) -> string:
+    return ""
