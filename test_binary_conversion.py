@@ -28,4 +28,3 @@ def test_int_to_binary_out_of_range(number):
 def test_int_to_binary_not_natural(number):
     with pytest.raises(TypeError):
         utils.int_to_binary(number)
-
